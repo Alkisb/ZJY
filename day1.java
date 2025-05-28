@@ -19,6 +19,9 @@ public class day1 {
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
+        System.out.println("xxxxxxxxxxxxxxxxxxxx");
+        System.out.println("xxxxxxxxxxxxxxxxxxxx");
+        System.out.println("xxxxxxxxxxxxxxxxxxxx");
         List<Integer> collect1 = list.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
         Integer i = collect1.get(0);
         List<Integer> collect = collect1.stream().map(x -> x + 2).collect(Collectors.toList());
