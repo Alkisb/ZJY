@@ -25,6 +25,8 @@ public class day1 {
         String[] split = s1.split(",");
         List<String> list1 = Arrays.asList(split);
         System.out.println(list1);
+        System.out.println("dev-zjy");
+        System.out.println("dev-zjy2");
 //        List<Integer> collect = list.stream().map(x -> x + 1).collect(Collectors.toList());
         System.out.println("xxxxxxxxxxxxxxxxxxxx");
         System.out.println("xxxxxxxxxxxxxxxxxxxx");
