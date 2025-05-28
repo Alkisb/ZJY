@@ -8,6 +8,7 @@ public class day1 {
         System.out.println("hello world");
         System.out.println("hello world");
         System.out.println("asuydfyuasdfuasyfdas");
+        System.out.println("secend");
         System.out.println("hello world");
     }
 }
