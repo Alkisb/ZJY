@@ -19,7 +19,9 @@ public class day1 {
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
-        List<Integer> collect = list.stream().map(x -> x + 1).collect(Collectors.toList());
+        List<Integer> collect1 = list.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
+        Integer i = collect1.get(0);
+        List<Integer> collect = collect1.stream().map(x -> x + 2).collect(Collectors.toList());
         System.out.println(collect);
     }
 }
