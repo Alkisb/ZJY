@@ -27,6 +27,7 @@ public class day1 {
         System.out.println(list1);
         System.out.println("dev-zjy");
         System.out.println("dev-zjy2");
+        System.out.println("dev-xxx");
 //        List<Integer> collect = list.stream().map(x -> x + 1).collect(Collectors.toList());
         System.out.println("xxxxxxxxxxxxxxxxxxxx");
         System.out.println("xxxxxxxxxxxxxxxxxxxx");
