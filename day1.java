@@ -25,7 +25,13 @@ public class day1 {
         String[] split = s1.split(",");
         List<String> list1 = Arrays.asList(split);
         System.out.println(list1);
-        List<Integer> collect = list.stream().map(x -> x + 1).collect(Collectors.toList());
+//        List<Integer> collect = list.stream().map(x -> x + 1).collect(Collectors.toList());
+        System.out.println("xxxxxxxxxxxxxxxxxxxx");
+        System.out.println("xxxxxxxxxxxxxxxxxxxx");
+        System.out.println("xxxxxxxxxxxxxxxxxxxx");
+        List<Integer> collect1 = list.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
+        Integer i = collect1.get(0);
+        List<Integer> collect = collect1.stream().map(x -> x + 2).collect(Collectors.toList());
         System.out.println(collect);
     }
 }
