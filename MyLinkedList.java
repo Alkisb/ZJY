@@ -14,7 +14,18 @@ public class MyLinkedList {
 		n4.next = n5;
 		n5.next = n6;
 		n6.next = n7;
-		
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+		n6.next = n7;
+
 		return n1;
 	}
 	
